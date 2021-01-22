@@ -4,45 +4,96 @@ body
 {
    font-family: 'Raleway', sans-serif;
    font-size: small;
-   
 }
 
 #global
 {
 	width: 76%;
-   margin: 0 auto;
+   margin: auto;
 }
-
+.centrage
+{
+	width: 96%;
+	margin: auto;
+}
 
 header
 {
+	margin-top: 30px;
 	display: flex;
 	justify-content: space-between;
-
 	
-
+		
 }
+
 
 header img
 {
-   width :70px;
+	width: 80px;
+
+}
+.lien2
+{
+	display: none;
 }
 
-header ul
+   
+
+.menu
 {
-     list-style-type: none;
-    display: flex;
-    text-align: right;
+	
+	font-size: 1.1em;
+	display: flex;
+
+	
+}
+.liens
+{
+	font-size: 1.1em;
+
 }
 
-header li
+
+.liens ul
 {
-	margin-right: 15px
+    list-style-type: none;
+  	display: flex;
+  
+}
+
+.liens li
+{
+	margin-right: 70px; 
+}
+
+.liens a 
+{
+	text-decoration: none;
+	color: gray;
+	
+
+}
+.liens a:hover
+{
+	color: #0065FC;
+	border-top: 2px solid  #0065FC;
+	padding-top: 30px;
+}
+.lien
+{
+	margin-top: 14px;
+
+
+}
+.lien a
+{
+	text-decoration: none;
+	color: blue;
 }
 
 .filtre:hover
 {
-    color: red;
+    background-color: #DEEBFF;
 }
 .infos
 {
@@ -53,14 +104,21 @@ header li
 .info 
 {
 	border: 2px solid #F2F2F2 ;
-	margin: 9px;
-	width: 18px;
-	border-radius:20px;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+	border-radius: 20px;
+
+	
+	
+	
 }
 .info i
 {
-	margin-left: 6px;
+	margin-left: 8px;
 	color:  #0065FC;
+	margin-top: 2px;
 }
 
 section
@@ -105,6 +163,7 @@ section
 	background-color: white;
     border-radius: 20px;
     box-shadow: 0px 5px 10px gray;
+    margin-bottom: 15px;
    
 }
 
@@ -120,7 +179,6 @@ section
     display: block;
     object-fit: cover;
 
-    
 }
 
 .hoteltext
@@ -143,23 +201,27 @@ section
 .etoiles
 {
 
-	display: flex;
-	margin: 5px;
-
+   display: flex;
 
 }
 .etoiles i
 {
 	color:  #0065FC;
+	margin: 1px;
 }
 .etoilesgris
 {
-	margin-left: 3px;
+	display: flex;
 }
+
 .etoilesgris i
 {
    color: #DCDCDC;
+
+
 }
+
+
 .plus
 {
 	margin-left: 20px;
@@ -180,6 +242,10 @@ section
 #filtres h3
 {
 	margin-top: 7px;
+}
+.filtres
+{
+	display: flex;
 }
 
 .filtre
@@ -222,25 +288,36 @@ section
 {
 	text-align: justify;
 	margin: 8px;
+
 }
 
 
 .elements
 {
 	display: flex;
-	height: 30px;
+
 }
+
 .maps
 {
-	display: flex;
-	width: 20px;
-	padding-left: 7px;
-	padding-top: 7px;
+	width: 30px;
+	height: 35px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     background-color: #F2F2F2;
-    
+
 }
+.maps i 
+{
+	margin-top: 10px; 
+	margin-left: 10px;	
+}
+input
+{
+	border: 1px solid #F2F2F2;
+	border-right: none;
+}
+
 
 button
 {
@@ -253,6 +330,11 @@ button h4
 {
 	color: white;
 	margin: 0;
+}
+.visibilite
+{
+	
+	display: none;
 }
 
 .recommandation
@@ -289,8 +371,8 @@ button h4
 .hotelpopulaire
 {
 	background-color: white;
-	width: 300px;
-	height: 115px;
+	width: 290px;
+	height: 120px;
     margin-bottom: 25px;
 	margin-left: 23px;
     border-radius: 20px;
@@ -305,7 +387,7 @@ button h4
 .hotelpopulaire >img
 {
     width: 40%;
-    height: 105px;
+    height: 110px;
     margin: 5px auto;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
@@ -341,14 +423,18 @@ button h4
 {
   margin-top: 15px;
   margin-left: 20px;
+  display: flex;
+
 }
 .etoile i
 {
 	color:  #0065FC;
+	margin: 1px;
+
 }
 .etoilegris i
 {
-   
+    color: #DCDCDC;
 }
 
 .container
@@ -372,6 +458,10 @@ button h4
 .activites img
 {
 	object-fit: cover;
+}
+.activites .title
+{
+    background-color: red;
 }
 
 
@@ -455,17 +545,24 @@ button h4
 {
 	margin-left: 15px;
 }
+footer
+{
+
+}
 
 .basdepage
 {
    background-color: #F2F2F2;
    margin-top: 50px;
+   height: 200px;
+   
 }
 
 .boites
 {
 
 	width: 70%;
+	
    display: flex;
    justify-content: space-between;
 
@@ -474,7 +571,7 @@ button h4
 
 .boite
 {
-	margin-top: 10px;
+	margin-top: 30px;
 }
 .boite ul
 {
@@ -492,12 +589,283 @@ button h4
    margin-left: 40px;
 }
 
-@media screen and (max-width: 1000px) {
-header
-{
-	background-color: red;
-}
-   
+@media all and (max-width: 700px) {
+	.global
+	{
+	    width: auto;
+
+	}
+	.centrage
+	{
+		width: auto;
+		
+	}
+
+	 header 
+	{
+	    
+	    flex-wrap: wrap;
+	    
+	}
+	.menu
+	{
+		width: 100%;
+	}
+
+	.liens
+	{
+		width: 100%;
+	}
+
+	.liens ul
+	{
+		flex-direction: column;
+		width: 100%;
+		border: 2px solid red;
+	}
+
+	.liens li
+	{
+		border-bottom: 2px solid blue;
+		width: 100%;
+	}
+
+	.liens a:hover
+	{
+		
+		border: none;
+	   
+	}
+	
+	.lien 
+	{
+      display: none;
+  	}
+
+  	.lien2
+  	{
+  		 
+  		display: flex;
+
+	}
+
+	.lien2 a 
+	{
+		text-decoration: none;
+		color: #0065FC;
+	}
+
+
+	.centre
+	{
+		width: 290px;
+		margin: auto;
+	}
+
+	.visibilite 
+	{
+		display: flex;
+	}
+
+	.visibilite i
+	{
+		color: white;
+	}
+
+	button
+	{
+		width: 35px;
+		border-bottom-left-radius: 10px;
+    	border-top-left-radius: 10px;
+	}
+
+	.elements > button 
+	{
+		display: none;
+	}
+
+	input
+	{
+		width: 220px;
+		border: 0;
+	}
+
+	.elements
+	{
+		border: 1px solid #F2F2F2;
+		width: 290px;
+		margin: auto;
+		border-radius: 12px;
+    }
+	
+
+	#filtres
+	{
+	    flex-wrap: wrap;
+		width: 290px;
+		margin:  auto;
+	}
+
+	.filtres
+	{
+		flex-wrap: wrap;
+	}
+
+	.filtre
+	{
+        margin: 3px;
+	}
+
+	.infos
+	{
+		width: 290px;
+		margin: auto;
+	}
+
+	section
+	{
+		flex-direction: column-reverse;
+		margin: 0;
+	}
+
+	.conteneur
+	{
+		background: none;
+		height: auto;
+		width: auto;
+	}
+	
+
+	.hotels
+	{
+		height: auto;
+	}
+
+	.hotel
+	{
+		
+		width: 290px;
+		height: 170px;
+
+	}
+
+	.hotel img
+	{
+		width: 280px;
+	}
+
+	.recommandation
+	{
+		margin: auto; 
+		border-radius: 0;
+	}
+
+	.container
+	{
+		margin: 0 auto;
+	}
+	
+	
+	.activites
+	{
+		width: auto;
+		height: auto;
+
+	}
+
+	.activite1
+	{
+		width: 290px;
+        height: 170px; 
+        margin: auto;
+        margin-bottom: 15px;
+	}
+	.activite1 img
+	{
+		width: 290px;
+		height:120px;
+	}
+	.activite2
+	{
+		width: 290px;
+        height: 170px; 
+        margin: auto;
+        margin-bottom: 15px;
+	}
+	.activite2 img
+	{
+		width: 290px;
+		height:120px;
+	}
+
+	.activite3
+	{
+		width: 290px;
+        height: 170px;
+        margin: auto; 
+        margin-bottom: 15px;
+	}
+	.activite3 img
+	{
+		width: 290px;
+		height:120px;
+	
+	}
+
+	.activite4
+	{
+		width: 290px;
+        height: 170px; 
+        margin: auto;
+        margin-bottom: 15px;
+
+	}
+	.activite4 img
+	{
+		width: 290px;
+		height:120px;
+	}
+
+	.activite5
+	{
+		width: 290px;
+        height: 170px;
+        margin: auto; 
+        margin-bottom: 15px;
+	}
+	.activite5 img
+	{
+		width: 290px;
+		height:120px;
+	}
+
+	.activite6
+	{
+		width: 290px;
+        height: 170px;
+        margin: auto;
+        margin-bottom: 15px;
+	}
+	.activite6 img
+	{
+		width: 290px;
+		height:120px;
+	}
+
+	.boites
+	{
+		flex-wrap: wrap;
+	}
+	.basdepage
+	{
+
+		height: auto;
+		
+	}
+
+	
+	
+
 }
 
 

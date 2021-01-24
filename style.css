@@ -136,11 +136,17 @@ section
         height: 530px;
         width: 70%;
         border-radius: 20px;
-        
 }
+
+.conteneurtitre
+{
+	
+	margin-top: 40px;
+	margin-left: 20px;
+}	
  
- .hotels
- {
+.hotels
+{
     width: 95%;
     height: 380px;
     margin: 0 auto;
@@ -148,13 +154,6 @@ section
    justify-content:space-evenly;
     flex-wrap: wrap;
 }
-
-.conteneurtitre
-{
-	
-	padding-top: 25px;
-	padding-left: 20px;
-}	
 
 .hotel
 {
@@ -183,8 +182,7 @@ section
 
 .hoteltext
 {
-    
-   margin: 10px;
+    margin: 10px;
 }
 
 
@@ -217,8 +215,6 @@ section
 .etoilesgris i
 {
    color: #DCDCDC;
-
-
 }
 
 

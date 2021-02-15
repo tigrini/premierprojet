@@ -151,7 +151,7 @@ section
     height: 380px;
     margin: 0 auto;
     display: flex;
-   justify-content:space-evenly;
+   justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -585,15 +585,18 @@ footer
    margin-left: 40px;
 }
 
-@media all and (max-width: 700px) {
-	.global
+@media all and (max-width: 500px) {
+	#global
 	{
-	    width: auto;
-
+		width: 100%;
+	    margin: auto; 
+	    
 	}
+	
 	.centrage
 	{
-		width: auto;
+		width: 100%;
+		
 		
 	}
 
@@ -615,21 +618,31 @@ footer
 
 	.liens ul
 	{
-		flex-direction: column;
+		margin: 0;
+	   	padding: 0;
 		width: 100%;
-		border: 2px solid red;
+		display: flex;
+		flex-wrap: nowrap; 
 	}
 
 	.liens li
 	{
-		border-bottom: 2px solid blue;
+		border-bottom: 2px solid gray;
 		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding-bottom: 20px;
+	}
+
+	.liens li:hover
+	{
+		border-bottom: 2px solid blue;
 	}
 
 	.liens a:hover
 	{
-		
-		border: none;
+	
+		border-top: none;
 	   
 	}
 	
@@ -698,13 +711,17 @@ footer
 	#filtres
 	{
 	    flex-wrap: wrap;
-		width: 290px;
-		margin:  auto;
+	    width: 290px;
+	    margin: auto;
+		
+		
 	}
 
 	.filtres
 	{
 		flex-wrap: wrap;
+
+
 	}
 
 	.filtre
@@ -730,6 +747,11 @@ footer
 		height: auto;
 		width: auto;
 	}
+	.conteneurtitre
+	{
+		width: 290px;
+		margin: auto;
+	}
 	
 
 	.hotels
@@ -749,16 +771,34 @@ footer
 	{
 		width: 280px;
 	}
+	.plus
+	{
+		width: 290px;
+		margin: auto;
+	}
 
 	.recommandation
 	{
-		margin: auto; 
+		width: 100%; 
 		border-radius: 0;
+		margin: 0;
+		
+	}
+	.populairetitre
+	{
+    	width: 290px;
+    	margin: auto;
+	}
+	.hotelpopulaire
+	{
+		width: 290px;
+		margin: auto;
+		margin-bottom: 15px;
 	}
 
 	.container
 	{
-		margin: 0 auto;
+		margin:  auto;
 	}
 	
 	
@@ -859,6 +899,46 @@ footer
 		
 	}
 
+	
+	
+
+}
+@media all and (min-width: 600px) and (max-width: 900px) {
+
+	#global 
+	{
+		width: 100%;
+	}
+
+	.centrage
+	{
+		width: 100%;
+	}
+	
+	.filtres{
+		flex-wrap: wrap;
+	}
+	section {
+
+		flex-wrap: wrap;
+	}
+	.conteneur {
+		width: 100%;
+	}
+	.recommandation {
+
+		margin-top: 20px;
+	}
+	.container {
+		flex-wrap: wrap;
+	}
+	.activites {
+
+		width: 600px;
+		height: 800px;
+		margin: auto;
+		
+	}
 	
 	
 

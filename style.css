@@ -322,7 +322,7 @@ button
     border-top-right-radius: 10px;
     background-color:  #0065FC;
 }
-button h4
+strong
 {
 	color: white;
 	margin: 0;

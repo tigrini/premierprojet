@@ -133,7 +133,7 @@ section
 {
        
         background-color: #F2F2F2;
-        height: 530px;
+        
         width: 70%;
         border-radius: 20px;
 }
@@ -142,13 +142,13 @@ section
 {
 	
 	margin-top: 40px;
-	margin-left: 20px;
+	margin-left: 40px;
 }	
  
 .hotels
 {
     width: 95%;
-    height: 380px;
+    
     margin: 0 auto;
     display: flex;
    justify-content: space-evenly;
@@ -162,7 +162,9 @@ section
 	background-color: white;
     border-radius: 20px;
     box-shadow: 0px 5px 10px gray;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    
+
    
 }
 
@@ -220,7 +222,7 @@ section
 
 .plus
 {
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 
@@ -248,7 +250,7 @@ section
 {
    
    text-align: justify;
-   margin-left: 50px;
+   margin-left: 40px;
    border: 2px solid #F2F2F2;
    display: flex;
    height: 34px;
@@ -283,7 +285,8 @@ section
 .titre h3
 {
 	text-align: justify;
-	margin: 8px;
+	margin: 10px;
+
 
 }
 
@@ -321,12 +324,14 @@ button
 	border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     background-color:  #0065FC;
+    
 }
-strong
+button strong 
 {
-	color: white;
 	margin: 0;
+	color: white;
 }
+
 .visibilite
 {
 	
@@ -369,6 +374,7 @@ strong
 	background-color: white;
 	width: 290px;
 	height: 120px;
+	margin-right: 20px;
     margin-bottom: 25px;
 	margin-left: 23px;
     border-radius: 20px;
@@ -903,7 +909,7 @@ footer
 	
 
 }
-@media all and (min-width: 600px) and (max-width: 900px) {
+@media all and (min-width: 500px) and (max-width: 900px) {
 
 	#global 
 	{
@@ -923,7 +929,12 @@ footer
 		flex-wrap: wrap;
 	}
 	.conteneur {
-		width: 100%;
+		width: auto;
+		height: auto;
+		
+	}
+	.hotels {
+		height: auto;
 	}
 	.recommandation {
 

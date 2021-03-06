@@ -6,14 +6,10 @@ body
    font-size: small;
 }
 
-#global
-{
-	width: 76%;
-   margin: auto;
-}
+
 .centrage
 {
-	width: 96%;
+	width: 95%;
 	margin: auto;
 }
 
@@ -124,46 +120,44 @@ header img
 section
 {
 	display: flex;
-	
 	justify-content: center;
 	margin-top: 25px;
+
 	
 }
 
 .conteneur 
 {
-       
-        background-color: #F2F2F2;
-        
-        width: 720px;
-        border-radius: 20px;
+     
+    background-color: #F2F2F2;
+    width: 1000px;
+    border-radius: 20px;
 }
 
 .conteneurtitre
 {
 	
 	margin-top: 40px;
-	margin-left: 40px;
+	margin-left: 75px;
 }	
  
 .hotels
 {
     width: 95%;
-    
     margin: 0 auto;
     display: flex;
-   justify-content: space-evenly;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .hotel
 {
-	width: 200px;
-	height: 170px;
+	width: 250px;
+	height: 190px;
 	background-color: white;
     border-radius: 20px;
     box-shadow: 0px 5px 10px gray;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 
    
@@ -173,8 +167,8 @@ section
 
 .hotel img
 {
-	width: 190px;
-	height: 85px;
+	width: 240px;
+	height: 105px;
 	margin: 5px auto;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
@@ -223,7 +217,8 @@ section
 
 .plus
 {
-	margin-left: 40px;
+	margin-left: 65px;
+	margin-bottom: 30px;
 	
 }
 
@@ -344,24 +339,31 @@ button strong
 
 .recommandation
 {
+	width: 400px;
     background-color: #F2F2F2;
-    height: 530px;
+    height: 560px;
     border-radius: 20px;
-    margin-left: 25px;
-    
-
-    
-    
+    margin-left: 40px;
+    padding: 10px
 }
+.conteneur2
+{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
 .populairetitre
 {
 	display: flex;
-	justify-content: space-between;
-	padding-top: 30px;
+	justify-content: space-around;
+	
 }
 .populairetitre h3
 {
-	margin-left: 20px;
+	margin-right: 15px;
 }
 
 
@@ -370,31 +372,29 @@ button strong
 .chart
 {
      font-size: large;
-     margin-right: 25px;
+     
      margin-top: 15px;
 }
 
 .hotelpopulaire
 {
 	background-color: white;
-	width: 290px;
-	height: 120px;
-	margin-right: 20px;
-    margin-bottom: 25px;
-	margin-left: 23px;
+	width: 320px;
+	height: 140px;
+	margin-left: 20px;
+    margin-bottom: 30px;
+	
     border-radius: 20px;
     display: flex;
     box-shadow: 0px 5px 10px gray;
+
 }
-.hotelpopulairetext h3
-{
-	padding-left: 20px;
-}
+
 
 .hotelpopulaire >img
 {
-    width: 40%;
-    height: 110px;
+    width: 43%;
+    height: 130px;
     margin: 5px auto;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
@@ -406,18 +406,16 @@ button strong
 .hotelpopulairetext
 {
    
-    width: 180px;
+    width: 190px;
     height: 95px;
     margin: auto;
-
-
-
 }
 
 .hotelpopulairetext h3
 {
     margin: 0;
     padding-top: 5px;
+    padding-left: 20px;
     	
 }
 .hotelpopulairetext p 
@@ -447,34 +445,26 @@ button strong
 .container
 {
 	margin-top: 20px;
-	
+	width: 100%;
 	flex-wrap: wrap;
 
 
 }
 
-
 .activites
 {
-   
-    width: 1100px;
-    height: 410px;
+    width: 100%;
+    height: 430px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    flex-direction: column;
+    justify-content: space-between;
     
-
-   
-
 }
+
 .activites img
 {
 	object-fit: cover;
-}
-.activites .title
-{
-    background-color: red;
 }
 
 
@@ -482,8 +472,9 @@ button strong
 {
 	border-radius: 20px;
     box-shadow: 0px 5px 10px gray;
-    width: 250px;
-    height: 410px;
+    width: 285px;
+    height: 430px;
+
     
 
 }
@@ -491,29 +482,33 @@ button strong
 {
 	border-radius: 20px;
     box-shadow: 0px 5px 10px gray;
-	width: 250px;
-	height: 200px;
+	width: 285px;
+	height: 210px;
+	display: block;
+
 }
 .activite3
 {
 	border-radius: 20px;
 	box-shadow: 0px 5px 10px gray;
-	width: 250px;
-	height: 160px;
+	width: 285px;
+	height: 170px;
+
 }
 .activite5
 {
 	border-radius: 20px;
 	box-shadow: 0px 5px 10px gray;
-	width: 250px;
-	height: 180px;
+	width: 285px;
+	height: 190px;
 }
 .activite6
 {
 	border-radius: 20px;
 	box-shadow: 0px 5px 10px gray;
-	width: 250px;
-	height: 180px;
+	width: 285px;
+	height: 190px;
+
 }
 
 
@@ -521,36 +516,36 @@ button strong
 .activite1 img
 {
 	
-    width:  250px;
-    height: 360px;
+    width:  285px;
+    height: 380px;
     border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
 .activite2 img
 {
-	width: 250px;
-	height: 150px;
+	width: 285px;
+	height: 160px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
 .activite3 img
 {
-	width: 250px;
-	height: 110px;
+	width: 285px;
+	height: 120px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
 .activite5 img
 {
-	width: 250px;
-	height: 130px;
+	width: 285px;
+	height: 140px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
 .activite6 img
 {
-	width: 250px;
-    height: 130px;
+	width: 285px;
+    height: 140px;
     border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
@@ -602,7 +597,7 @@ footer
    margin-left: 40px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 480px) {
 	#global
 	{
 		width: 100%;
@@ -788,6 +783,7 @@ footer
 	.hotel img
 	{
 		width: 280px;
+		height: 90px;
 	}
 	.plus
 	{
@@ -797,44 +793,50 @@ footer
 
 	.recommandation
 	{
-		width: 100%; 
+		width: auto; 
 		border-radius: 0;
 		margin: 0;
 		
 	}
+	.conteneur2
+	{
+		display: block;
+	}
 	.populairetitre
 	{
-    	width: 290px;
-    	margin: auto;
+    
+    	
 	}
+	
 	.hotelpopulaire
 	{
-		width: 290px;
-		margin: auto;
-		margin-bottom: 15px;
+		width: 300px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding: 0;
 	}
-
-	.container
+	.hotelpopulairetext
 	{
-		margin:  auto;
-
-
+		margin-right: 5px;
 	}
-	.container h3 
+
+	.container h3
 	{
-		width: 290px;
-		text-align: center;
+		margin-left: 80px;
 
 	}
+	
 	
 	
 	.activites
 	{
 		width: auto;
 		height: auto;
-
-
 	}
+	.activites h3 {
+		margin-left: 20px;
+	}
+	
 
 	.activite1
 	{
@@ -842,6 +844,7 @@ footer
         height: 170px; 
         margin: auto;
         margin-bottom: 15px;
+
 	}
 	.activite1 img
 	{
@@ -881,6 +884,7 @@ footer
         height: 170px; 
         margin: auto;
         margin-bottom: 15px;
+
 
 	}
 	.activite4 img
@@ -930,7 +934,9 @@ footer
 	
 
 }
-@media all and (min-width: 500px) and (max-width: 1025px) {
+
+
+@media all and (min-width: 481px) and (max-width: 1024px) {
 
 	#global 
 	{
@@ -949,11 +955,7 @@ footer
 
 		flex-wrap: wrap-reverse;
 	}
-	.conteneur {
-		width: 70%;
-		
-		
-	}
+	
 	.hotels {
 
 		height: auto;
@@ -961,31 +963,148 @@ footer
 	.recommandation {
 
 		margin-bottom: 20px;
+		width: 100%;
 		height: auto;
-		width: 74%;
+		margin-left: 0;
+		
 
 	}
 	.conteneur2
 	{
 		display: flex;
 		flex-wrap: wrap;
+
 	}
-	.container {
-		width: 570px;
-		margin-left: 30px;
+	.container h3 {
+		margin-left: 80px;
 	}
+	.activites h3
+	{
+		margin-left: 20px;
+	}
+		
+	
+	.activites
+	{
+		width: 100%;
+		height: 600px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+	.activite1
+	{
+		width: 300px;
+        height: 170px; 
+        margin: auto;
+        margin-bottom: 15px;
+	}
+	.activite1 img
+	{
+		width: 300px;
+		height:120px;
+	}
+	.activite2
+	{
+		width: 300px;
+        height: 170px; 
+        margin: auto;
+        margin-bottom: 15px;
+	}
+	.activite2 img
+	{
+		width: 300px;
+		height:120px;
+	}
+	.activite3
+	{
+		width: 300px;
+        height: 170px;
+        margin: auto; 
+        margin-bottom: 15px;
+	}
+	.activite3 img
+	{
+		width: 300px;
+		height:120px;
+	
+	}
+
+	.activite4
+	{
+		width: 290px;
+        height: 170px; 
+        margin: auto;
+        margin-bottom: 15px;
+
+	}
+	.activite4 img
+	{
+		width: 300px;
+		height:120px;
+	}
+	.activite5
+	{
+		width: 300px;
+        height: 170px;
+        margin: auto; 
+        margin-bottom: 15px;
+	}
+	.activite5 img
+	{
+		width: 300px;
+		height:120px;
+	}
+
+	.activite6
+	{
+		width: 300px;
+        height: 170px;
+        margin: auto;
+        margin-bottom: 15px;
+	}
+	.activite6 img
+	{
+		width: 300px;
+		height:120px;
+	}
+
+	
+	
+
+}
+@media (min-width: 481px) and (max-width: 622px) {
+
+	.activites
+	{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		
+
+
+
+	}
+
+}
+@media (min-width: 1025px) and (max-width: 1225px) {
+
 	.activites {
 
-		width: 570px;
-		height: 800px;
-		margin: auto;
-
-		
-		
+		height: 650px;
+		display: flex;
+		flex-wrap: wrap;
 	}
-	
-	
+	.activite5
+	{
+		height: 430px;
 
+	}
+	.activite5 img {
+		height: 380px;
+	}
 }
 
 

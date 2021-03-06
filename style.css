@@ -160,10 +160,7 @@ section
     margin-bottom: 30px;
 
 
-   
 }
-
-
 
 .hotel img
 {
@@ -221,12 +218,6 @@ section
 	margin-bottom: 30px;
 	
 }
-
-
-
-
-
-
 
 
 #filtres
@@ -598,12 +589,7 @@ footer
 }
 
 @media all and (max-width: 480px) {
-	#global
-	{
-		width: 100%;
-	    margin: auto; 
-	    
-	}
+	
 	
 	.centrage
 	{
@@ -938,10 +924,6 @@ footer
 
 @media all and (min-width: 481px) and (max-width: 1024px) {
 
-	#global 
-	{
-		width: 100%;
-	}
 
 	.centrage
 	{
